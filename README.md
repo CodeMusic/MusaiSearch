@@ -3,6 +3,8 @@
 MusaiSearch is based on an open-source clone of Perplexity, known as Clarity.
 Thank-you mckaywrigley for writing this framework code, I am so excited to give this system emotions!
 
+<img src="https://github.com/CodeMusic/MusaiSearch/blob/main/MusaiSearch.jpg?raw=true" alt="MusaiSearch">
+
 ## How It Works
 
 MusaiSearch will be designed to support third-party, a locally hosted LLM, or by codemusAIgpt.

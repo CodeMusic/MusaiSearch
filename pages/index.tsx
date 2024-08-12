@@ -13,10 +13,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Clarity AI</title>
+        <title>MusaiSearch</title>
         <meta
           name="description"
-          content="AI-powered search."
+          content="CodMusAI-powered search."
         />
         <meta
           name="viewport"
@@ -30,7 +30,7 @@ export default function Home() {
       <div className="h-screen overflow-auto bg-[#18181C] text-[#D4D4D8]">
         <a
           className="absolute top-0 right-12 p-4 cursor-pointer"
-          href="https://twitter.com/mckaywrigley"
+          href="https://twitter.com/codemusic"
           target="_blank"
           rel="noreferrer"
         >
@@ -39,7 +39,7 @@ export default function Home() {
 
         <a
           className="absolute top-0 right-2 p-4 cursor-pointer"
-          href="https://github.com/mckaywrigley/clarity-ai"
+          href="https://github.com/codemusic/musaisearch"
           target="_blank"
           rel="noreferrer"
         >
