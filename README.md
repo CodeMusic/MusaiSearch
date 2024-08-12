@@ -8,7 +8,7 @@ Thank-you mckaywrigley for writing this framework code, I am so excited to give 
 MusaiSearch will be designed to support third-party, a locally hosted LLM, or by codemusAIgpt.
 
 In any case of the LLM, through instructional softcoding, CodeMusai will be your liaison to the internet.
-For development, initially OpenAI with cmSoftCoding will be used, however, once I get adjusted to the fork I will connect codemusAIgpt, and override the url to suport any compliant localLLM.
+For development, initially OpenAI with cmSoftCoding will be used, however, once I get adjusted to the fork I will connect codemusAIgpt, and override the url to support any compliant localLLM.
 
 
 Ask a question or make a request and CodeMusai relevant, up-to-date information.
@@ -31,7 +31,7 @@ Until the next version you will need an OpenAI API key [here](https://openai.com
 1. Clone repo
 
 ```bash
-git clone https://github.com/mckaywrigley/clarity-ai.git
+git clone https://github.com/CodeMusic/MusaiSearch.git
 ```
 
 2. Install dependencies
