@@ -1,14 +1,17 @@
-# Clarity AI
+# MusaiSearch
 
-Clarity is simple [perplexity.ai](https://www.perplexity.ai/) clone. Use the code for whatever you like! :)
-
-If you have any questions, feel free to reach out to me on [Twitter](https://twitter.com/mckaywrigley).
-
-[![Clarity AI](./public/screenshot.png)](https://clarity-ai.vercel.app/)
+MusaiSearch is based on an open-source clone of Perplexity, known as Clarity.
+Thank-you mckaywrigley for writing this framework code, I am so excited to give this system emotions!
 
 ## How It Works
 
-Given a query, Clarity fetches relevant, up-to-date information from the web and uses OpenAI's API to generate an answer.
+MusaiSearch will be designed to support third-party, a locally hosted LLM, or by codemusAIgpt.
+
+In any case of the LLM, through instructional softcoding, CodeMusai will be your liaison to the internet.
+For development, initially OpenAI with cmSoftCoding will be used, however, once I get adjusted to the fork I will connect codemusAIgpt, and override the url to suport any compliant localLLM.
+
+
+Ask a question or make a request and CodeMusai relevant, up-to-date information.
 
 The app works as follows:
 
@@ -21,7 +24,7 @@ The app works as follows:
 
 ## Requirements
 
-Get OpenAI API key [here](https://openai.com/api/).
+Until the next version you will need an OpenAI API key [here](https://openai.com/api/).
 
 ## Running Locally
 
@@ -43,20 +46,10 @@ npm i
 npm run dev
 ```
 
-## Improvement Ideas
+## Backlog
+- Speed up answers by replacing link scraping with the Google Search API (scraping was used to circumvent cost + rate limits)
+- Add "follow up" searches
+- Improve the prompt (WIP - currently porting the dtourVariant of CodeMusai... like a person it behaves differently during different times of the day, learns from your queries, develops a personality)
+- Get codemusAIgpt ported into it
+- ContinuousLearningModule improves the model over time based on what it learns from you, LobatomyMode allows you to disable this function
 
-Here are some ideas for how to improve Clarity:
-
-- [ ] Speed up answers by replacing link scraping with the Google Search API (scraping was used to circumvent cost + rate limits)
-- [ ] Add "follow up" searches
-- [ ] Improve the prompt
-- [ ] Get sources working in non text-davinci-003 models
-- [ ] Train your own model to use for answer synthesis
-
-## Credits
-
-Shoutout to [Perplexity AI](https://www.perplexity.ai/) for the inspiration. I highly recommend checking their product out.
-
-This repo is meant to show people that you can build powerful apps like Perplexity even if you don't have a large, experienced team.
-
-LLMs are amazing, and I hope Clarity inspires you to build something cool!
